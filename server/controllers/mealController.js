@@ -154,7 +154,7 @@ exports.deleteMealPlan = async (req, res) => {
     
     res.status(200).json({ message: 'Meal plan deleted successfully' });
   } catch (error) {
-    console.error('Error deleting meal plan:', error);
-    res.status(500).json({ message: 'Server error', error: error.message });
+    console.error("Full error in generateMealPlan:", error);
+res.status(500).json({ message: 'AI generation failed', error: error.message });
   }
 };

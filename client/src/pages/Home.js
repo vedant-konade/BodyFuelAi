@@ -9,7 +9,7 @@ const Home = () => {
     <div className="container py-5">
       <div className="row align-items-center mb-5">
         <div className="col-lg-6 text-center text-lg-start">
-          <h1 className="display-4 fw-bold text-primary mb-3">AI Meal Planner</h1>
+          <h1 className="display-4 fw-bold text-primary mb-3">BodyFuelAi</h1>
           <p className="lead fs-4 mb-4">
             Your personal AI assistant for meal planning based on your preferences and pantry items.
           </p>

@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container">
         <Link className="navbar-brand fw-bold text-white d-flex align-items-center" to="/">
           <i className="bi bi-calendar-check me-2"></i>
-          AI Meal Planner
+          BodyFuelAi
         </Link>
         
         <button 

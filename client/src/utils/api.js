@@ -3,7 +3,8 @@ import axios from 'axios';
 
 
 // client/src/utils/api.js
-const API_URL = 'https://aimeal-adgggvd8h6hyhgbh.centralindia-01.azurewebsites.net/api'
+const API_URL = 'http://localhost:5000/api';
+
 
 // User API calls
 export const loginUser = async (loginData) => {
