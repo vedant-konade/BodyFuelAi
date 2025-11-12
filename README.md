@@ -79,20 +79,34 @@ Open your browser and navigate to:
 
 📁 Project Structure
 ai-meal-planner/
+
 ├── client/                 # React frontend
+
 │   ├── public/             # Static files
+
 │   └── src/
+
 │       ├── components/     # UI components
+
 │       ├── contexts/       # React contexts
+
 │       ├── pages/          # Page components
+
 │       └── utils/          # Utility functions
+
 │
+
 └── server/                 # Node.js backend
-    ├── config/             # Configuration files
-    ├── controllers/        # Route controllers
-    ├── models/             # MongoDB models
-    ├── routes/             # API routes
-    └── services/           # Business logic
+
+├── config/             # Configuration files
+
+├── controllers/        # Route controllers
+
+├── models/             # MongoDB models
+  
+├── routes/             # API routes
+ 
+└── services/           # Business logic
 
 🧩 API Endpoints
 User Endpoints
