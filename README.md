@@ -1,55 +1,81 @@
 🍽️ AI Meal Planner
+
 AI Meal Planner is a MERN stack application that generates personalized meal plans based on user preferences, dietary restrictions, and available pantry items using AI technology.
 
 📋 Features
+
 🧠 AI-powered meal plan generation using meta-llama/Meta-Llama-3.1-70B-Instruct by Nebius AI Studio
+
 👤 User account creation and authentication
-🤖 ai-powered chat assistant – provides dietary advice and personalized meal suggestions.
+
+🤖 AI-powered chat assistant – provides dietary advice and personalized meal suggestions
+
 🥗 Personalized meal recommendations based on dietary preferences
+
 🧪 Allergy and dietary restriction filtering
+
 🥫 Pantry-based recipe suggestions to reduce food waste
+
 📝 Custom instructions for meal plan generation
+
 📊 Nutritional information for each meal
+
 📜 Meal planning history tracking
+
 🛠️ Tech Stack
+
 Frontend: React, React Router, Bootstrap
 Backend: Node.js, Express.js
 Database: MongoDB
 AI Integration: Nebius AI Studio (Meta-Llama-3.1-8B-Instruct)
+
 🚀 Getting Started
 Prerequisites
-Node.js (v14+)
-MongoDB (local or Atlas)
-Nebius AI Studio API key
-Installation
-Clone the repository
 
+Node.js (v14+)
+
+MongoDB (Local or Atlas)
+
+Nebius AI Studio API Key
+
+Installation
+1. Clone the repository
 git clone https://github.com/yourusername/ai-meal-planner.git
 cd ai-meal-planner
-Install backend dependencies
 
+2. Install backend dependencies
 cd server
 npm install
-Configure environment variables Create a .env file in the server directory:
+
+3. Configure environment variables
+
+Create a .env file in the server directory:
 
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 NEBIUS_API_KEY=your_nebius_api_key
-Install frontend dependencies
 
+4. Install frontend dependencies
 cd ../client
 npm install
-Start the development servers
+
+5. Start the development servers
 
 Backend:
 
 cd ../server
 node server.js
+
+
 Frontend:
 
 cd ../client
 npm start
-Access the application Open your browser and navigate to http://localhost:3000
+
+6. Access the application
+
+Open your browser and navigate to:
+👉 http://localhost:3000
 
 📁 Project Structure
 ai-meal-planner/
@@ -67,28 +93,52 @@ ai-meal-planner/
     ├── models/             # MongoDB models
     ├── routes/             # API routes
     └── services/           # Business logic
+
 🧩 API Endpoints
 User Endpoints
-POST /api/users/login - User login
-POST /api/users - Create new user
-PUT /api/users/:userId - Update user preferences
-GET /api/users/:userId - Get user details
+Method	Endpoint	Description
+POST	/api/users/login	User login
+POST	/api/users	Create new user
+PUT	/api/users/:userId	Update user preferences
+GET	/api/users/:userId	Get user details
 Meal Plan Endpoints
-POST /api/meals/generate - Generate new meal plan
-GET /api/meals/user/:userId - Get user's meal plans
-GET /api/meals/history/:userId - Get meal planning history
-DELETE /api/meals/plan/:id - Delete a meal plan
+Method	Endpoint	Description
+POST	/api/meals/generate	Generate new meal plan
+GET	/api/meals/user/:userId	Get user's meal plans
+GET	/api/meals/history/:userId	Get meal planning history
+DELETE	/api/meals/plan/:id	Delete a meal plan
 🤝 Contributing
+
 Fork the repository
-Create your feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
+
+Create your feature branch
+
+git checkout -b feature/amazing-feature
+
+
+Commit your changes
+
+git commit -m 'Add some amazing feature'
+
+
+Push to the branch
+
+git push origin feature/amazing-feature
+
+
 Open a Pull Request
+
 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
 
 🙏 Acknowledgements
-Nebius AI Studio for providing the AI model
-MongoDB Atlas for database hosting
-Bootstrap for UI components
-React for the frontend framework
+
+Nebius AI Studio – for providing the AI model
+
+MongoDB Atlas – for database hosting
+
+Bootstrap – for UI components
+
+React – for the frontend framework
